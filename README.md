@@ -45,6 +45,23 @@ Implementado a função <code>splitSentence</code> que divide uma frase de acord
   </summary> <br />
 A função `splitSentence` recebe uma string como parâmetro e deve retornar um array com as palavras separadas por vírgula.
 
-  Exemplo: se a função receber a string `'Vamo que vamo!'`, o retorno deverá ser `['Vamo', 'que', 'vamo!']`.
+  Exemplo:
+
+- Se a função receber a string `'Vamo que vamo!'`, o retorno deverá ser `['Vamo', 'que', 'vamo!']`.
+
+</details>
+
+## 3. Implementado uma função que use concatenação de strings
+
+<details>
+  <summary>
+Implementado a função <code>concatName</code> que recebe um array de strings e retorna o último item na primeira posição
+
+  </summary> <br />
+A função `concatName` recebe um array de strings e deve retornar uma string com o formato `'ÚLTIMO ITEM, PRIMEIRO ITEM`, independente do tamanho do array.
+
+  Exemplo:
+
+- Caso o parâmetro passado para a função `concatName` seja o array `['Fritas', 'Manga', 'Leite', 'Hamburguer']`, a função deverá retornar `Hamburguer, Fritas`.
 
 </details>
