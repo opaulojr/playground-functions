@@ -3,4 +3,12 @@ function compareTrue(x, y) {
   return x && y;
 }
 
-module.exports = { compareTrue };
+// Desafio 2
+function splitSentence(string) {
+  return string.split(' ');
+}
+
+module.exports = {
+  compareTrue,
+  splitSentence,
+};

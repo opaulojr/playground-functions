@@ -35,3 +35,16 @@ const leite = false;
 Se a função for chamada com os valores `hamburguer` e `fritas` como parâmetro, retorna `true`, mas caso seja chamada com os parâmetros `fritas` e `manga` ou `manga` e `leite` retorna `false`.
 
 </details>
+
+## 2. Implementado uma função que divide uma frase
+
+<details>
+  <summary>
+Implementado a função <code>splitSentence</code> que divide uma frase de acordo com a quantidade de palavras
+
+  </summary> <br />
+A função `splitSentence` recebe uma string como parâmetro e deve retornar um array com as palavras separadas por vírgula.
+
+  Exemplo: se a função receber a string `'Vamo que vamo!'`, o retorno deverá ser `['Vamo', 'que', 'vamo!']`.
+
+</details>
