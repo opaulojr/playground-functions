@@ -138,6 +138,17 @@ function triangleCheck(lineA, lineB, lineC) {
   return condition1 || condition2 || condition3;
 }
 
+function hydrate(string) {
+  const regex = /\d+/g;
+  const numbers = string.match(regex);
+
+  const totalCups = numbers.reduce((sum, num) => sum + parseInt(num, 10), 0);
+
+  if (totalCups === 1) return '1 copo de água';
+
+  return `${totalCups} copos de água`;
+}
+
 module.exports = {
   compareTrue,
   splitSentence,
@@ -152,4 +163,5 @@ module.exports = {
   techList,
   generatePhoneNumber,
   triangleCheck,
+  hydrate,
 };

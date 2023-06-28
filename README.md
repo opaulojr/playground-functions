@@ -8,7 +8,7 @@ Nele coloquei em prática conceitos fundamentais como variáveis, objetos, funç
 
 - A pasta `src` contém todo o código.
 
-# Requisitos
+# Funcionalidades implementadas
 
 ## 1. Implementado uma função usando o operador &&
 
@@ -77,6 +77,14 @@ A função `calcArea` recebe o valor `base` e `height` de um triângulo e retorn
 
 - O cálculo da área total do triângulo utiliza a fórmula `(base * altura) / 2`.
 
+  Exemplo:
+
+- A função `calcArea` retorna o valor 250 quando recebe o parâmetro `base` com o valor 10 e o parâmetro `height` com o valor 50;
+
+- A função `calcArea` retorna o valor 5 quando recebe o parâmetro `base` com o valor 5 e o parâmetro `height` com o valor 2;
+
+- A função `calcArea` retorna o valor 25.5 quando recebe o parâmetro `base` com o valor 51 e o parâmetro `height` com o valor 1.
+
 </details>
 
 ## 5 - Implementado uma função que calcula a quantidade de pontos em um campeonato de futebol
@@ -136,7 +144,6 @@ Imagine que dois gatos estão caçando o mesmo rato e você precisa verificar qu
 - `cat1`: representa a posição do gato 1;
 
 - `cat2`: representa a posição do gato 2;
-
 
 - A função calcula as distâncias entre o rato e cada um dos gatos e retorne qual dos felinos está mais próximo do rato:
 
@@ -319,5 +326,39 @@ A função `triangleCheck` recebe os parâmetros `lineA`, `lineB` e `lineC` com 
 - A função `triangleCheck` deve retornar o valor `true` quando passado os parâmetros `(10, 14, 8)`;
 
 - A função `triangleCheck` deve retornar o valor `false` quando passado os parâmetros `(5, 10, 20)`;
+
+</details>
+
+## 13 - Crie uma função de boas vindas ao Bar da Trybe!
+
+<details>
+  <summary>
+Implementado a função <code>hydrate</code>que recebe uma string e retorna a sugestão de quantos copos de água você deve beber.
+
+  </summary> <br />
+
+- A função `hydrate` deve retornar a sugestão de quantos copos de água deve-se beber ao receber uma string informando a quantidade de bebida ingerida.
+
+- A string **sempre** terá o formato *quantidade (em número) + tipo da bebida*;
+
+- O número na frente de cada bebida deve estar entre 1 e 9.
+
+  Exemplo:
+
+```javascript
+// String recebida:
+  '1 cerveja'
+
+// String retornada:
+  '1 copo de água'
+```
+
+```javascript
+// String recebida:
+  '1 cachaça, 5 cervejas e 1 copo de vinho'
+
+// String retornada:
+  '7 copos de água'
+```
 
 </details>
