@@ -42,6 +42,7 @@ Se a função for chamada com os valores `hamburguer` e `fritas` como parâmetro
 Implementado a função <code>splitSentence</code> que divide uma frase de acordo com a quantidade de palavras
 
   </summary> <br />
+
 A função `splitSentence` recebe uma string como parâmetro e deve retornar um array com as palavras separadas por vírgula.
 
   Exemplo:
@@ -57,6 +58,7 @@ A função `splitSentence` recebe uma string como parâmetro e deve retornar um 
 Implementado a função <code>concatName</code> que recebe um array de strings e retorna o último item na primeira posição
 
   </summary> <br />
+
 A função `concatName` recebe um array de strings e deve retornar uma string com o formato `'ÚLTIMO ITEM, PRIMEIRO ITEM`, independente do tamanho do array.
 
   Exemplo:
@@ -329,15 +331,15 @@ A função `triangleCheck` recebe os parâmetros `lineA`, `lineB` e `lineC` com 
 
 </details>
 
-## 13 - Crie uma função de boas vindas ao Bar da Trybe!
+## 13 - Implementado uma função de boas vindas ao Bar da Trybe!
 
 <details>
   <summary>
-Implementado a função <code>hydrate</code>que recebe uma string e retorna a sugestão de quantos copos de água você deve beber.
+Implementado a função <code>hydrate</code> que recebe uma string e retorna a sugestão de quantos copos de água você deve beber.
 
   </summary> <br />
 
-- A função `hydrate` deve retornar a sugestão de quantos copos de água deve-se beber ao receber uma string informando a quantidade de bebida ingerida.
+- A função `hydrate` retorna a sugestão de quantos copos de água deve-se beber ao receber uma string informando a quantidade de bebida ingerida.
 
 - A string **sempre** terá o formato *quantidade (em número) + tipo da bebida*;
 
@@ -351,9 +353,7 @@ Implementado a função <code>hydrate</code>que recebe uma string e retorna a su
 
 // String retornada:
   '1 copo de água'
-```
 
-```javascript
 // String recebida:
   '1 cachaça, 5 cervejas e 1 copo de vinho'
 
