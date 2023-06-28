@@ -293,3 +293,31 @@ Exemplo:
 - Caso o parâmetro da função seja `[1, 6, 9, 9, 4, 0, 1, 0, 5, 3, 1]`, a função `generatePhoneNumber` deverá retornar `(16) 99401-0531`.
 
 </details>
+
+## 12 - Implementado uma função que teste a condição de existência de um triângulo
+
+<details>
+  <summary>
+Implementado a função <code>triangleCheck</code> que verifica se é possível formar um triângulo analisando o comprimento de três linhas.
+
+  </summary> <br />
+
+A função `triangleCheck` recebe os parâmetros `lineA`, `lineB` e `lineC` com o valor do comprimento de três linhas distintas.
+
+- Para que seja possível formar um triângulo, é necessário atender uma das seguintes condições:
+
+  1) **a medida de _um_ dos lados** é **menor** que a soma das medidas dos outros dois lados e **maior** que o valor absoluto (módulo) da diferença entre os outros dois lados. Por exemplo: `lineA` é menor que `lineB + lineC` e maior que `lineB - lineC`. Se o resultado de `lineB - lineC` for um valor negativo, o valor é convertido para positivo e checado se `lineA` é maior que esse resultado convertido;
+
+  **_OU_**
+
+  2) **a medida de _qualquer_ um dos lados** é **menor** que a soma das medidas dos outros dois lados. Por exemplo: `lineA` é menor que `lineB + lineC`, `lineB` é menor que `lineA + lineC` e `lineC` é menor que `lineA + lineB`.
+
+- O retorno da sua função é um valor booleano.
+
+  Exemplo:
+
+- A função `triangleCheck` deve retornar o valor `true` quando passado os parâmetros `(10, 14, 8)`;
+
+- A função `triangleCheck` deve retornar o valor `false` quando passado os parâmetros `(5, 10, 20)`;
+
+</details>

@@ -129,7 +129,14 @@ function generatePhoneNumber(numbers) {
   return `(${areaCode}) ${firstPart}-${secondPart}`;
 }
 
-console.log(generatePhoneNumber([1, 6, 9, 9, 1, 3, 5, 0, 1, 0, 4]));
+// Desafio 12
+function triangleCheck(lineA, lineB, lineC) {
+  const condition1 = lineA < lineB + lineC && lineA > Math.abs(lineB - lineC);
+  const condition2 = lineB < lineA + lineC && lineB > Math.abs(lineA - lineC);
+  const condition3 = lineC < lineA + lineB && lineC > Math.abs(lineA - lineB);
+
+  return condition1 || condition2 || condition3;
+}
 
 module.exports = {
   compareTrue,
@@ -144,4 +151,5 @@ module.exports = {
   decode,
   techList,
   generatePhoneNumber,
+  triangleCheck,
 };
