@@ -79,3 +79,28 @@ A função `calcArea` recebe o valor `base` e `height` de um triângulo e retorn
 - O cálculo da área total do triângulo utiliza a fórmula `(base * altura) / 2`.
 
 </details>
+
+## 5 - Implementado uma função que calcula a quantidade de pontos em um campeonato de futebol
+
+<details>
+  <summary>
+Implementado a função <code>footballPoints</code> que calcula a pontuação de um time de futebol em um campeonato a partir do número de vitórias e empates
+
+  </summary> <br />
+
+A função `footballPoints` recebe o número de vitórias (`wins`) e o número de empates (`ties`) e retorna a quantidade de pontos que o time marcou em um campeonato. Para isso, considere que:
+
+- `wins`: é o número de vitórias e vale 3 pontos;
+- `ties`: é o número de empates e vale 1 ponto.
+
+
+  Exemplo:
+
+- A função `footballPoints` deve retornar o valor `50` pontos quando o time tenha 14 vitórias e 8 empates;
+
+- A função `footballPoints` deve retornar o valor `5` pontos quando o time tenha 1 vitória e 2 empates;
+
+- A função `footballPoints` deve retornar o valor `0` pontos quando o time tenha 0 vitórias e 0 empates.
+
+
+</details>

@@ -18,9 +18,15 @@ function calcArea(base, height) {
   return (base * height) / 2;
 }
 
+// Desafio 5
+function footballPoints(wins, ties) {
+  return (wins * 3) + (ties * 1);
+}
+
 module.exports = {
   compareTrue,
   splitSentence,
   concatName,
   calcArea,
+  footballPoints,
 };
