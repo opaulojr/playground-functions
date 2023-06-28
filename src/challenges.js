@@ -80,6 +80,22 @@ function decode(string) {
   return string.replace(/[1-5]/g, (match) => numbers[match]);
 }
 
+function techList(array, string) {
+  const result = [];
+  array.sort();
+
+  if (array.length === 0) return 'Vazio!';
+
+  for (let index = 0; index < array.length; index += 1) {
+    result.push({
+      tech: array[index],
+      name: string,
+    });
+  }
+
+  return result;
+}
+
 module.exports = {
   compareTrue,
   splitSentence,
@@ -91,4 +107,5 @@ module.exports = {
   fizzBuzz,
   encode,
   decode,
+  techList,
 };

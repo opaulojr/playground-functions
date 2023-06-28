@@ -92,7 +92,6 @@ A função `footballPoints` recebe o número de vitórias (`wins`) e o número d
 - `wins`: é o número de vitórias e vale 3 pontos;
 - `ties`: é o número de empates e vale 1 ponto.
 
-
   Exemplo:
 
 - A função `footballPoints` deve retornar o valor `50` pontos quando o time tenha 14 vitórias e 8 empates;
@@ -215,5 +214,60 @@ Para decodificar a frase utilize a função `decode` que recebe uma string conte
 - A função `decode` quando receber o parâmetro `'h3 th2r2!'`, deve retornar o valor `'hi there!'`;
 - A função `decode` quando receber o parâmetro `H4w 1r2 y45 t4d1y?`, deve retornar o valor `How are you today?`;
 - A função `decode` quando receber o parâmetro `'Th3s 3s 1 d2c4d2 t2st.'`, deve retornar o valor `'This is a decode test.'`;
+
+</details>
+
+## 10 - Implementado uma função de Lista de Tecnologias
+
+<details>
+  <summary>
+Implementado a função <code>techList</code> que recebe um array e uma string e retorna um array de objetos.
+
+  </summary> <br />
+
+A função `techList` recebe dois parâmetros:
+
+- Um array com nomes de tecnologias ;
+- Um nome referente ao nome de uma pessoa.
+
+A função deverá retornar:
+- 'Vazio!' se não receber parâmetro algum ;
+- Um objeto para cada tecnologia do array, com a seguinte estrutura:
+
+```javascript
+{
+  tech: 'NomeTech',
+  name: 'nome da pessoa'
+}
+```
+
+  Exemplo:
+
+-Se a função recebe os parâmetros `['React', 'Jest', 'HTML', 'CSS', 'JavaScript']` e `'Paulo'`, o retorno deve ser:
+
+```javascript
+[
+  {
+    tech: "CSS",
+    name: "Paulo"
+  },
+  {
+    tech: "HTML",
+    name: "Paulo"
+  },
+  {
+    tech: "JavaScript",
+    name: "Paulo"
+  },
+  {
+    tech: "Jest",
+    name: "Paulo"
+  },
+  {
+    tech: "React",
+    name: "Paulo"
+  }
+]
+```
 
 </details>
