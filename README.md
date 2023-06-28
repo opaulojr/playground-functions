@@ -271,3 +271,25 @@ A função deverá retornar:
 ```
 
 </details>
+
+## 11 - Implementado uma função de número de telefone
+
+<details>
+  <summary>
+Implementado a função  <code>generatePhoneNumber</code> que recebe um array com 11 números e retorna um número de telefone, respeitando parênteses, traços e espaços.
+
+  </summary> <br />
+
+- A função `generatePhoneNumber` retorna a string `'Array com tamanho incorreto.'` caso o array tenha o tamanho diferente de 11;
+
+- A função `generatePhoneNumber` retorna a string `'Não é possível gerar um número de telefone com esses valores.'` caso algum dos números do array seja menor que 0;
+
+- A função `generatePhoneNumber` retorna a string `'Não é possível gerar um número de telefone com esses valores.'` caso algum número do array seja maior que 9;
+
+- A função `generatePhoneNumber` retorna a string `'Não é possível gerar um número de telefone com esses valores.'` caso algum número do array se repetir 4 vezes ou mais;
+
+Exemplo:
+
+- Caso o parâmetro da função seja `[1, 6, 9, 9, 4, 0, 1, 0, 5, 3, 1]`, a função `generatePhoneNumber` deverá retornar `(16) 99401-0531`.
+
+</details>

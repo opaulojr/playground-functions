@@ -51,6 +51,7 @@ function catAndMouse(mouse, cat1, cat2) {
   return mouseWin;
 }
 
+// Desafio 8
 function fizzBuzz(numbers) {
   return numbers.map((number) => {
     if (number % 3 === 0 && number % 5 === 0) {
@@ -64,6 +65,7 @@ function fizzBuzz(numbers) {
   });
 }
 
+// Desafio 9
 function encode(string) {
   const vowels = {
     a: '1', e: '2', i: '3', o: '4', u: '5',
@@ -80,6 +82,7 @@ function decode(string) {
   return string.replace(/[1-5]/g, (match) => numbers[match]);
 }
 
+// Desafio 10
 function techList(array, string) {
   const result = [];
   array.sort();
@@ -96,6 +99,38 @@ function techList(array, string) {
   return result;
 }
 
+// Desafio 11
+function generatePhoneNumber(numbers) {
+  const count = {};
+
+  if (numbers.length !== 11) return 'Array com tamanho incorreto.';
+
+  for (let index = 0; index < numbers.length; index += 1) {
+    const number = numbers[index];
+
+    if (number < 0 || number > 9) {
+      return 'Não é possível gerar um número de telefone com esses valores.';
+    }
+  }
+
+  for (let index = 0; index < numbers.length; index += 1) {
+    const number = numbers[index];
+
+    count[number] = count[number] ? count[number] + 1 : 1;
+    if (count[number] >= 4) {
+      return 'Não é possível gerar um número de telefone com esses valores.';
+    }
+  }
+
+  const areaCode = numbers.slice(0, 2).join('');
+  const firstPart = numbers.slice(2, 7).join('');
+  const secondPart = numbers.slice(7).join('');
+
+  return `(${areaCode}) ${firstPart}-${secondPart}`;
+}
+
+console.log(generatePhoneNumber([1, 6, 9, 9, 1, 3, 5, 0, 1, 0, 4]));
+
 module.exports = {
   compareTrue,
   splitSentence,
@@ -108,4 +143,5 @@ module.exports = {
   encode,
   decode,
   techList,
+  generatePhoneNumber,
 };
