@@ -39,6 +39,18 @@ function highestCount(array) {
   return count;
 }
 
+// Desafio 7
+function catAndMouse(mouse, cat1, cat2) {
+  const distanceCat1 = Math.abs(mouse - cat1);
+  const distanceCat2 = Math.abs(mouse - cat2);
+  const mouseWin = 'os gatos trombam e o rato foge';
+
+  if (distanceCat1 < distanceCat2) return 'cat1';
+  if (distanceCat1 > distanceCat2) return 'cat2';
+
+  return mouseWin;
+}
+
 module.exports = {
   compareTrue,
   splitSentence,
@@ -46,4 +58,5 @@ module.exports = {
   calcArea,
   footballPoints,
   highestCount,
+  catAndMouse,
 };

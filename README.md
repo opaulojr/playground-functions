@@ -125,3 +125,36 @@ A função `highestCount` retorna a quantidade de vezes em que o **maior** núme
 
 
 </details>
+
+## 7 - Crie uma função de Caça ao Rato
+
+<details>
+  <summary>
+Implementado a função <code>catAndMouse</code> que verifica qual gato está mais perto do rato
+
+  </summary> <br />
+Imagine que dois gatos estão caçando o mesmo rato e você precisa verificar qual gato está mais perto de sua presa. Para isso, a função `catAndMouse` recebe 3 parâmetros do tipo `number` na seguinte ordem:
+
+- `mouse`: representa a posição do rato.
+
+- `cat1`: representa a posição do gato 1;
+
+- `cat2`: representa a posição do gato 2;
+
+
+- A função calcula as distâncias entre o rato e cada um dos gatos e retorne qual dos felinos está mais próximo do rato:
+
+- Retorna a string `'cat2'` se o gato `cat2` estiver mais próximo do rato;
+- Retorna a string `'cat1'` se o gato `cat1` estiver mais próximo do rato;
+- Retorna a string `'Os gatos trombam e o rato foge'` caso os gatos estejam na mesma distância do rato.
+
+  Exemplo:
+
+- A função `catAndMouse` deve retornar a string `'cat2'` quando receber os parâmetros onde gato `cat2` esteja a 2 unidades de distância do rato e `cat1` esteja a 3 unidades de distância do rato;
+
+- A função `catAndMouse` deve retornar a string `'cat1'` quando receber os parâmetros onde gato `cat1` esteja a 6 unidades de distância do rato e `cat2` esteja a 12 unidades de distância do rato;
+
+- A função `catAndMouse` deve retornar a string `'Os gatos trombam e o rato foge'` quando receber os parâmetros onde os gatos estejam na mesma distância do rato.
+
+
+</details>
