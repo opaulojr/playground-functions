@@ -23,10 +23,27 @@ function footballPoints(wins, ties) {
   return (wins * 3) + (ties * 1);
 }
 
+// Desafio 6
+function highestCount(array) {
+  let count = 0;
+  let highNum = array[0];
+
+  for (let index = 0; index < array.length; index += 1) {
+    if (array[index] > highNum) highNum = array[index];
+  }
+
+  for (let index = 0; index < array.length; index += 1) {
+    if (highNum === array[index]) count += 1;
+  }
+
+  return count;
+}
+
 module.exports = {
   compareTrue,
   splitSentence,
   concatName,
   calcArea,
   footballPoints,
+  highestCount,
 };

@@ -104,3 +104,24 @@ A função `footballPoints` recebe o número de vitórias (`wins`) e o número d
 
 
 </details>
+
+## 6 - Implementado uma função que calcula o número de repetições do maior número
+
+<details>
+  <summary>
+Implementado a função <code>highestCount</code> que deverá retornar a quantidade de vezes que o maior número se repete ao receber um array de números.
+
+  </summary> <br />
+
+A função `highestCount` retorna a quantidade de vezes em que o **maior** número se repete dentro do array.
+
+  Exemplo:
+
+- A função `highestCount` retorna `2` quando receber o parâmetro `[9, 1, 2, 3, 9, 5, 7]`;
+
+- A função `highestCount` retorna `1` quando receber o parâmetro `[1, 2, 2, 2, 7, 4, 6]`;
+
+- A função `highestCount` retorna `3` quando receber o parâmetro `[1, 1, 1]`.
+
+
+</details>
