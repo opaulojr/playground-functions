@@ -126,7 +126,7 @@ A função `highestCount` retorna a quantidade de vezes em que o **maior** núme
 
 </details>
 
-## 7 - Crie uma função de Caça ao Rato
+## 7 - Implementado uma função de Caça ao Rato
 
 <details>
   <summary>
@@ -156,5 +156,30 @@ Imagine que dois gatos estão caçando o mesmo rato e você precisa verificar qu
 
 - A função `catAndMouse` deve retornar a string `'Os gatos trombam e o rato foge'` quando receber os parâmetros onde os gatos estejam na mesma distância do rato.
 
+
+</details>
+
+## 8 - Implementado uma função FizzBuzz
+
+<details>
+  <summary>
+Implementado a função <code>fizzBuzz</code> que recebe um array de números e retorna um array de string de acordo com o resultado
+
+  </summary> <br />
+
+A função `fizzBuzz` recebe um array de números e para cada número do array é realizada a divisão por 3 e por 5 e de acordo com o resultado, retorna um array de strings:
+
+- Retorna a string `'fizz'` para cada número do array que seja divisível apenas por 3;
+- Retorna a string `'buzz'` para cada número do array que seja divisível apenas por 5;
+- Retorna a string `'fizzBuzz'` para cada número do array que seja divisível por 3 **e** 5;
+- Retorna a string `'bug!'` para cada número do array que não seja dividido por 3 nem por 5.
+
+  Exemplo:
+
+- A função `fizzBuzz` retorna as strings `['bug!', 'fizzBuzz', 'bug!', 'fizz', 'fizzBuzz']` quando receber os parâmetros [2, 15, 7, 9, 45];
+
+- A função `fizzBuzz` retorna as strings `['bug!', 'fizz']` quando receber os parâmetros [7, 9];
+
+- A função `fizzBuzz` retorna as strings `['fizz', 'buzz']` quando receber os parâmetros [9, 25].
 
 </details>

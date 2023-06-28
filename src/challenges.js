@@ -51,6 +51,19 @@ function catAndMouse(mouse, cat1, cat2) {
   return mouseWin;
 }
 
+function fizzBuzz(numbers) {
+  return numbers.map((number) => {
+    if (number % 3 === 0 && number % 5 === 0) {
+      return 'fizzBuzz';
+    } if (number % 3 === 0) {
+      return 'fizz';
+    } if (number % 5 === 0) {
+      return 'buzz';
+    }
+    return 'bug!';
+  });
+}
+
 module.exports = {
   compareTrue,
   splitSentence,
@@ -59,4 +72,5 @@ module.exports = {
   footballPoints,
   highestCount,
   catAndMouse,
+  fizzBuzz,
 };
