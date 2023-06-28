@@ -13,8 +13,14 @@ function concatName(array) {
   return `${array[array.length - 1]}, ${array[0]}`;
 }
 
+// Desafio 4
+function calcArea(base, height) {
+  return (base * height) / 2;
+}
+
 module.exports = {
   compareTrue,
   splitSentence,
   concatName,
+  calcArea,
 };

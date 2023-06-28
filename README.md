@@ -65,3 +65,17 @@ A função `concatName` recebe um array de strings e deve retornar uma string co
 - Caso o parâmetro passado para a função `concatName` seja o array `['Fritas', 'Manga', 'Leite', 'Hamburguer']`, a função deverá retornar `Hamburguer, Fritas`.
 
 </details>
+
+## 4 - Implementado uma função que calcula a área de um triângulo
+
+<details>
+  <summary>
+Implementado a função <code>calcArea</code> que retorna o cálculo da área total de um triângulo
+
+  </summary> <br />
+
+A função `calcArea` recebe o valor `base` e `height` de um triângulo e retorna o cálculo da sua área.
+
+- O cálculo da área total do triângulo utiliza a fórmula `(base * altura) / 2`.
+
+</details>
