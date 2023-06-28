@@ -22,7 +22,6 @@ A função `compareTrue` ao receber dois parâmetros booleanos:
 - Retorna `true` se ambos os valores forem verdadeiros;
 - Retorna `false` se um ou ambos os parâmetros forem falsos.
 
-
 Exemplo:
 
 ```javascript
@@ -102,7 +101,6 @@ A função `footballPoints` recebe o número de vitórias (`wins`) e o número d
 
 - A função `footballPoints` deve retornar o valor `0` pontos quando o time tenha 0 vitórias e 0 empates.
 
-
 </details>
 
 ## 6 - Implementado uma função que calcula o número de repetições do maior número
@@ -122,7 +120,6 @@ A função `highestCount` retorna a quantidade de vezes em que o **maior** núme
 - A função `highestCount` retorna `1` quando receber o parâmetro `[1, 2, 2, 2, 7, 4, 6]`;
 
 - A função `highestCount` retorna `3` quando receber o parâmetro `[1, 1, 1]`.
-
 
 </details>
 
@@ -156,7 +153,6 @@ Imagine que dois gatos estão caçando o mesmo rato e você precisa verificar qu
 
 - A função `catAndMouse` deve retornar a string `'Os gatos trombam e o rato foge'` quando receber os parâmetros onde os gatos estejam na mesma distância do rato.
 
-
 </details>
 
 ## 8 - Implementado uma função FizzBuzz
@@ -181,5 +177,43 @@ A função `fizzBuzz` recebe um array de números e para cada número do array �
 - A função `fizzBuzz` retorna as strings `['bug!', 'fizz']` quando receber os parâmetros [7, 9];
 
 - A função `fizzBuzz` retorna as strings `['fizz', 'buzz']` quando receber os parâmetros [9, 25].
+
+</details>
+
+## 9 - Implementado uma função que Codifique e Decodifique
+
+<details>
+  <summary>
+Implementado uma função que codifica e decodifica uma frase, trocando vogais por números ou números por vogais.
+
+  </summary> <br />
+
+Para codificar a frase utilize a função `encode` que recebe uma string como parâmetro e deverá trocar todas as **vogais minúsculas por números**, de acordo com o formato:
+
+a -> 1 \
+e -> 2 \
+i -> 3 \
+o -> 4 \
+u -> 5
+
+  Exemplo:
+
+- A função `encode` quando receber o parâmetro `'hi there!'`, deve retornar o valor `'h3 th2r2!'`;
+- A função `encode` quando receber o parâmetro `How are you today?` deve retornar o valor `H4w 1r2 y45 t4d1y?`;
+- A função `encode` quando receber o parâmetro `This is an encoding test.` deve retornar o valor `Th3s 3s 1n 2nc4d3ng t2st.`;
+
+Para decodificar a frase utilize a função `decode` que recebe uma string contendo letras e números como parâmetro e deverá trocar todos os **números por vogais minúsculas**, de acordo com o formato:
+
+1 -> a \
+2 -> e \
+3 -> i \
+4 -> o \
+5 -> u
+
+  Exemplo:
+
+- A função `decode` quando receber o parâmetro `'h3 th2r2!'`, deve retornar o valor `'hi there!'`;
+- A função `decode` quando receber o parâmetro `H4w 1r2 y45 t4d1y?`, deve retornar o valor `How are you today?`;
+- A função `decode` quando receber o parâmetro `'Th3s 3s 1 d2c4d2 t2st.'`, deve retornar o valor `'This is a decode test.'`;
 
 </details>
