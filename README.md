@@ -7,6 +7,7 @@ Nele coloquei em prática conceitos fundamentais como variáveis, objetos, funç
 ## Estrutura do Repositório
 
 - A pasta `src` contém todo o código.
+- Cada implementação foi desenvolvida em uma função específica;
 
 # Funcionalidades implementadas
 
@@ -67,7 +68,7 @@ A função `concatName` recebe um array de strings e deve retornar uma string co
 
 </details>
 
-## 4 - Implementado uma função que calcula a área de um triângulo
+## 4. Implementado uma função que calcula a área de um triângulo
 
 <details>
   <summary>
@@ -89,7 +90,7 @@ A função `calcArea` recebe o valor `base` e `height` de um triângulo e retorn
 
 </details>
 
-## 5 - Implementado uma função que calcula a quantidade de pontos em um campeonato de futebol
+## 5. Implementado uma função que calcula a quantidade de pontos em um campeonato de futebol
 
 <details>
   <summary>
@@ -112,7 +113,7 @@ A função `footballPoints` recebe o número de vitórias (`wins`) e o número d
 
 </details>
 
-## 6 - Implementado uma função que calcula o número de repetições do maior número
+## 6. Implementado uma função que calcula o número de repetições do maior número
 
 <details>
   <summary>
@@ -132,7 +133,7 @@ A função `highestCount` retorna a quantidade de vezes em que o **maior** núme
 
 </details>
 
-## 7 - Implementado uma função de Caça ao Rato
+## 7. Implementado uma função de Caça ao Rato
 
 <details>
   <summary>
@@ -163,7 +164,7 @@ Imagine que dois gatos estão caçando o mesmo rato e você precisa verificar qu
 
 </details>
 
-## 8 - Implementado uma função FizzBuzz
+## 8. Implementado uma função FizzBuzz
 
 <details>
   <summary>
@@ -188,7 +189,7 @@ A função `fizzBuzz` recebe um array de números e para cada número do array �
 
 </details>
 
-## 9 - Implementado uma função que Codifique e Decodifique
+## 9. Implementado uma função que Codifique e Decodifique
 
 <details>
   <summary>
@@ -226,7 +227,7 @@ Para decodificar a frase utilize a função `decode` que recebe uma string conte
 
 </details>
 
-## 10 - Implementado uma função de Lista de Tecnologias
+## 10. Implementado uma função de Lista de Tecnologias
 
 <details>
   <summary>
@@ -281,7 +282,7 @@ A função deverá retornar:
 
 </details>
 
-## 11 - Implementado uma função de número de telefone
+## 11. Implementado uma função de número de telefone
 
 <details>
   <summary>
@@ -303,7 +304,7 @@ Exemplo:
 
 </details>
 
-## 12 - Implementado uma função que teste a condição de existência de um triângulo
+## 12. Implementado uma função que teste a condição de existência de um triângulo
 
 <details>
   <summary>
@@ -331,7 +332,7 @@ A função `triangleCheck` recebe os parâmetros `lineA`, `lineB` e `lineC` com 
 
 </details>
 
-## 13 - Implementado uma função de boas vindas ao Bar da Trybe!
+## 13. Implementado uma função de boas vindas ao Bar da Trybe!
 
 <details>
   <summary>
