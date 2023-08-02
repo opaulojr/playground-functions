@@ -11,7 +11,7 @@ Nele coloquei em prática conceitos fundamentais como variáveis, objetos, funç
 
 # Funcionalidades implementadas
 
-## 1. Implementado uma função usando o operador &&
+## Implementado uma função usando o operador &&
 
 <details>
   <summary>
@@ -36,7 +36,7 @@ Se a função for chamada com os valores `hamburguer` e `fritas` como parâmetro
 
 </details>
 
-## 2. Implementado uma função que divide uma frase
+## Implementado uma função que divide uma frase
 
 <details>
   <summary>
@@ -52,7 +52,7 @@ A função `splitSentence` recebe uma string como parâmetro e deve retornar um 
 
 </details>
 
-## 3. Implementado uma função que use concatenação de strings
+## Implementado uma função que use concatenação de strings
 
 <details>
   <summary>
@@ -68,7 +68,7 @@ A função `concatName` recebe um array de strings e deve retornar uma string co
 
 </details>
 
-## 4. Implementado uma função que calcula a área de um triângulo
+## Implementado uma função que calcula a área de um triângulo
 
 <details>
   <summary>
@@ -90,7 +90,7 @@ A função `calcArea` recebe o valor `base` e `height` de um triângulo e retorn
 
 </details>
 
-## 5. Implementado uma função que calcula a quantidade de pontos em um campeonato de futebol
+## Implementado uma função que calcula a quantidade de pontos em um campeonato de futebol
 
 <details>
   <summary>
@@ -113,7 +113,7 @@ A função `footballPoints` recebe o número de vitórias (`wins`) e o número d
 
 </details>
 
-## 6. Implementado uma função que calcula o número de repetições do maior número
+## Implementado uma função que calcula o número de repetições do maior número
 
 <details>
   <summary>
@@ -133,7 +133,7 @@ A função `highestCount` retorna a quantidade de vezes em que o **maior** núme
 
 </details>
 
-## 7. Implementado uma função de Caça ao Rato
+## Implementado uma função de Caça ao Rato
 
 <details>
   <summary>
@@ -164,7 +164,7 @@ Imagine que dois gatos estão caçando o mesmo rato e você precisa verificar qu
 
 </details>
 
-## 8. Implementado uma função FizzBuzz
+## Implementado uma função FizzBuzz
 
 <details>
   <summary>
@@ -189,7 +189,7 @@ A função `fizzBuzz` recebe um array de números e para cada número do array �
 
 </details>
 
-## 9. Implementado uma função que Codifique e Decodifique
+## Implementado uma função que Codifique e Decodifique
 
 <details>
   <summary>
@@ -227,7 +227,7 @@ Para decodificar a frase utilize a função `decode` que recebe uma string conte
 
 </details>
 
-## 10. Implementado uma função de Lista de Tecnologias
+## Implementado uma função de Lista de Tecnologias
 
 <details>
   <summary>
@@ -282,7 +282,7 @@ A função deverá retornar:
 
 </details>
 
-## 11. Implementado uma função de número de telefone
+## Implementado uma função de número de telefone
 
 <details>
   <summary>
@@ -304,7 +304,7 @@ Exemplo:
 
 </details>
 
-## 12. Implementado uma função que teste a condição de existência de um triângulo
+## Implementado uma função que teste a condição de existência de um triângulo
 
 <details>
   <summary>
@@ -332,7 +332,7 @@ A função `triangleCheck` recebe os parâmetros `lineA`, `lineB` e `lineC` com 
 
 </details>
 
-## 13. Implementado uma função de boas vindas ao Bar da Trybe!
+## Implementado uma função de boas vindas ao Bar da Trybe!
 
 <details>
   <summary>
