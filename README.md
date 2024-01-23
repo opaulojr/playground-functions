@@ -350,3 +350,5 @@ The function `triangleCheck` receives the parameters `lineA`, `lineB`, and `line
   '7 glasses of water'
 ```
 </details>
+
+---
