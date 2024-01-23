@@ -1,203 +1,198 @@
-# Projeto Playground Functions!
+# Project Playground Functions!
 
-Este é meu 2° projeto durante a minha jornada na Trybe!
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-Nele coloquei em prática conceitos fundamentais como variáveis, objetos, funções, arrays, loops for, arrow functions e template literals. Através dos 13 desafios propostos, o projeto permitiu a aplicação prática desses conceitos, fortalecendo a compreensão e habilidades em programação JavaScript. #vqv 🚀
+## About
 
-## Estrutura do Repositório
+This is my 2nd project during my journey at Trybe!
 
-- A pasta `src` contém todo o código.
-- Cada implementação foi desenvolvida em uma função específica;
+In this project, I put into practice fundamental concepts such as variables, objects, functions, arrays, for loops, arrow functions, and template literals. Through the 13 proposed challenges, the project allowed the practical application of these concepts, strengthening understanding and skills in JavaScript programming. 🚀
 
-# Funcionalidades implementadas
+## Repository Structure
 
-## Implementado uma função usando o operador &&
+- The `src` folder contains all the code
+- Each implementation was developed in a specific function
+
+# Implemented Functions
+
+## Implemented a function using the `&&` operator
 
 <details>
   <summary>
-    Implementado a função <code>compareTrue</code> utilizando somente o operador <code>&&</code>
+    Implemented the <code>compareTrue</code> function using only the <code>&&</code>
   </summary> <br />
 
-A função `compareTrue` ao receber dois parâmetros booleanos:
+The compareTrue function, when receiving two boolean parameters:
 
-- Retorna `true` se ambos os valores forem verdadeiros;
-- Retorna `false` se um ou ambos os parâmetros forem falsos.
+- Returns `true` if both values are true
+- Returns `false` if one or both parameters are false
 
-Exemplo:
+  Exemple:
 
 ```javascript
-const hamburguer = true;
-const fritas = true;
-const manga = false;
-const leite = false;
+const hamburger = true;
+const fries = true;
+const mango = false;
+const milk = false;
 ```
 
-Se a função for chamada com os valores `hamburguer` e `fritas` como parâmetro, retorna `true`, mas caso seja chamada com os parâmetros `fritas` e `manga` ou `manga` e `leite` retorna `false`.
-
+If the function is called with the values `hamburger` and `fries` as parameters, it returns `true`, but if called with the parameters `fries` and `mango` or `mango` and `milk`, it returns `false`
 </details>
 
-## Implementado uma função que divide uma frase
+
+## Implemented a function that splits a sentence
 
 <details>
   <summary>
-Implementado a função <code>splitSentence</code> que divide uma frase de acordo com a quantidade de palavras
-
+    Implemented the function <code>splitSentence</code> that splits a sentence according to the number of words
   </summary> <br />
 
-A função `splitSentence` recebe uma string como parâmetro e deve retornar um array com as palavras separadas por vírgula.
+The function `splitSentence` takes a string as a parameter and should return an array with the words separated by commas
 
-  Exemplo:
+  Example:
 
-- Se a função receber a string `'Vamo que vamo!'`, o retorno deverá ser `['Vamo', 'que', 'vamo!']`.
-
+- If the function receives the string `'The only constant is change'`, the return will be `['The', 'only', 'constant', 'is', 'change']`
 </details>
 
-## Implementado uma função que use concatenação de strings
+
+## Implemented a function that uses string concatenation
 
 <details>
   <summary>
-Implementado a função <code>concatName</code> que recebe um array de strings e retorna o último item na primeira posição
-
+    Implemented the function <code>concatName</code> that takes an array of strings and returns the last item in the first position
   </summary> <br />
 
-A função `concatName` recebe um array de strings e deve retornar uma string com o formato `'ÚLTIMO ITEM, PRIMEIRO ITEM`, independente do tamanho do array.
+The function `concatName` takes an array of strings and should return a string in the format `'LAST ITEM, FIRST ITEM'`, regardless of the array's size
 
-  Exemplo:
+  Example:
 
-- Caso o parâmetro passado para a função `concatName` seja o array `['Fritas', 'Manga', 'Leite', 'Hamburguer']`, a função deverá retornar `Hamburguer, Fritas`.
-
+- If the parameter passed to the `concatName` function is the array `['Fries', 'Mango', 'Milk', 'Burger']`, the function should return `Burger, Fries`
 </details>
 
-## Implementado uma função que calcula a área de um triângulo
+
+## Implemented a function that calculates the area of a triangle
 
 <details>
   <summary>
-Implementado a função <code>calcArea</code> que retorna o cálculo da área total de um triângulo
-
+    Implemented the function <code>calcArea</code> that returns the calculation of the total area of a triangle
   </summary> <br />
 
-A função `calcArea` recebe o valor `base` e `height` de um triângulo e retorna o cálculo da sua área.
+The function `calcArea` takes the `base` and `height` values of a triangle, uses the formula `(base * height) / 2`, and returns the calculation of its area
 
-- O cálculo da área total do triângulo utiliza a fórmula `(base * altura) / 2`.
+  Example:
 
-  Exemplo:
+- The function `calcArea` returns the value 250 when it receives the `base` parameter with the value 10 and the `height` parameter with the value 50
 
-- A função `calcArea` retorna o valor 250 quando recebe o parâmetro `base` com o valor 10 e o parâmetro `height` com o valor 50;
+- The function `calcArea` returns the value 5 when it receives the `base` parameter with the value 5 and the `height` parameter with the value 2
 
-- A função `calcArea` retorna o valor 5 quando recebe o parâmetro `base` com o valor 5 e o parâmetro `height` com o valor 2;
-
-- A função `calcArea` retorna o valor 25.5 quando recebe o parâmetro `base` com o valor 51 e o parâmetro `height` com o valor 1.
-
+- The function `calcArea` returns the value 25.5 when it receives the `base` parameter with the value 51 and the `height` parameter with the value 1
 </details>
 
-## Implementado uma função que calcula a quantidade de pontos em um campeonato de futebol
+
+## Implemented a function that calculates the number of points in a football championship
 
 <details>
   <summary>
-Implementado a função <code>footballPoints</code> que calcula a pontuação de um time de futebol em um campeonato a partir do número de vitórias e empates
-
+    Implemented the function <code>footballPoints</code> that calculates a football team's score in a championship based on the number of wins and draws
   </summary> <br />
 
-A função `footballPoints` recebe o número de vitórias (`wins`) e o número de empates (`ties`) e retorna a quantidade de pontos que o time marcou em um campeonato. Para isso, considere que:
+The `footballPoints` function takes the number of wins (`wins`) and the number of draws (`ties`) as input and returns the total points the team scored in a championship. To do this, consider the following scoring rules:
 
-- `wins`: é o número de vitórias e vale 3 pontos;
-- `ties`: é o número de empates e vale 1 ponto.
+- `wins`: the number of wins, each worth 3 points
+- `ties`: the number of draws, each worth 1 point
 
-  Exemplo:
+  Example:
 
-- A função `footballPoints` deve retornar o valor `50` pontos quando o time tenha 14 vitórias e 8 empates;
+- The `footballPoints` function should return the value `50` points when the team has 14 wins and 8 draws
 
-- A função `footballPoints` deve retornar o valor `5` pontos quando o time tenha 1 vitória e 2 empates;
+- The `footballPoints` function should return the value `5` points when the team has 1 win and 2 draws
 
-- A função `footballPoints` deve retornar o valor `0` pontos quando o time tenha 0 vitórias e 0 empates.
-
+- The `footballPoints` function should return the value `0` points when the team has 0 wins and 0 draws
 </details>
 
-## Implementado uma função que calcula o número de repetições do maior número
+
+## Implemented a function that calculates the number of repetitions of the highest number
 
 <details>
   <summary>
-Implementado a função <code>highestCount</code> que deverá retornar a quantidade de vezes que o maior número se repete ao receber um array de números.
-
+    Implemented the function <code>highestCount</code> that should return the quantity of times the highest number repeats when given an array of numbers
   </summary> <br />
 
-A função `highestCount` retorna a quantidade de vezes em que o **maior** número se repete dentro do array.
+The function `highestCount` returns the quantity of times the **highest** number repeats within the array.
 
-  Exemplo:
+  Example:
 
-- A função `highestCount` retorna `2` quando receber o parâmetro `[9, 1, 2, 3, 9, 5, 7]`;
+- The function `highestCount` returns `2` when given the parameter `[9, 1, 2, 3, 9, 5, 7]`
 
-- A função `highestCount` retorna `1` quando receber o parâmetro `[1, 2, 2, 2, 7, 4, 6]`;
+- The function `highestCount` returns `1` when given the parameter `[1, 2, 2, 2, 7, 4, 6]`
 
-- A função `highestCount` retorna `3` quando receber o parâmetro `[1, 1, 1]`.
-
+- The function `highestCount` returns `3` when given the parameter `[1, 1, 1]`
 </details>
 
-## Implementado uma função de Caça ao Rato
+
+## Implemented a Cat and Mouse function
 
 <details>
   <summary>
-Implementado a função <code>catAndMouse</code> que verifica qual gato está mais perto do rato
-
+    Implemented the function <code>catAndMouse</code> that checks which cat is closer to the mouse
   </summary> <br />
-Imagine que dois gatos estão caçando o mesmo rato e você precisa verificar qual gato está mais perto de sua presa. Para isso, a função `catAndMouse` recebe 3 parâmetros do tipo `number` na seguinte ordem:
 
-- `mouse`: representa a posição do rato.
+Imagine two cats are chasing the same mouse, and you need to check which cat is closer to its prey. For that, the function `catAndMouse` receives 3 parameters of type `number` in the following order:
 
-- `cat1`: representa a posição do gato 1;
+- `mouse`: represents the mouse's position
 
-- `cat2`: representa a posição do gato 2;
+- `cat1`: represents the position of cat 1
 
-- A função calcula as distâncias entre o rato e cada um dos gatos e retorne qual dos felinos está mais próximo do rato:
+- `cat2`: represents the position of cat 2
 
-- Retorna a string `'cat2'` se o gato `cat2` estiver mais próximo do rato;
-- Retorna a string `'cat1'` se o gato `cat1` estiver mais próximo do rato;
-- Retorna a string `'Os gatos trombam e o rato foge'` caso os gatos estejam na mesma distância do rato.
+The function calculates the distances between the mouse and each of the cats and returns which of the felines is closer to the mouse:
 
-  Exemplo:
+- Returns the string `'cat2'` if cat `cat2` is closer to the mouse
+- Returns the string `'cat1'` if cat `cat1` is closer to the mouse
+- Returns the string `'The cats collide, and the mouse escapes'` if the cats are at the same distance from the mouse
 
-- A função `catAndMouse` deve retornar a string `'cat2'` quando receber os parâmetros onde gato `cat2` esteja a 2 unidades de distância do rato e `cat1` esteja a 3 unidades de distância do rato;
+  Example:
 
-- A função `catAndMouse` deve retornar a string `'cat1'` quando receber os parâmetros onde gato `cat1` esteja a 6 unidades de distância do rato e `cat2` esteja a 12 unidades de distância do rato;
+- The function `catAndMouse` should return the string `'cat2'` when given parameters where cat `cat2` is 2 units away from the mouse, and `cat1` is 3 units away from the mouse
 
-- A função `catAndMouse` deve retornar a string `'Os gatos trombam e o rato foge'` quando receber os parâmetros onde os gatos estejam na mesma distância do rato.
+- The function `catAndMouse` should return the string `'cat1'` when given parameters where cat `cat1` is 6 units away from the mouse, and `cat2` is 12 units away from the mouse
 
+- The function `catAndMouse` should return the string `'The cats collide, and the mouse escapes'` when given parameters where the cats are at the same distance from the mouse
 </details>
 
-## Implementado uma função FizzBuzz
+
+## Implemented a FizzBuzz function
 
 <details>
   <summary>
-Implementado a função <code>fizzBuzz</code> que recebe um array de números e retorna um array de string de acordo com o resultado
-
+    Implemented the function <code>fizzBuzz</code> that receives an array of numbers and returns an array of strings according to the result
   </summary> <br />
 
-A função `fizzBuzz` recebe um array de números e para cada número do array é realizada a divisão por 3 e por 5 e de acordo com o resultado, retorna um array de strings:
+The function `fizzBuzz` receives an array of numbers, and for each number in the array, it performs division by 3 and by 5. According to the result, it returns an array of strings:
 
-- Retorna a string `'fizz'` para cada número do array que seja divisível apenas por 3;
-- Retorna a string `'buzz'` para cada número do array que seja divisível apenas por 5;
-- Retorna a string `'fizzBuzz'` para cada número do array que seja divisível por 3 **e** 5;
-- Retorna a string `'bug!'` para cada número do array que não seja dividido por 3 nem por 5.
+- Returns the string `'fizz'` for each number in the array that is divisible only by 3
+- Returns the string `'buzz'` for each number in the array that is divisible only by 5
+- Returns the string `'fizzBuzz'` for each number in the array that is divisible by both 3 **and** 5
+- Returns the string `'bug!'` for each number in the array that is not divisible by 3 nor by 5
 
-  Exemplo:
+  Example:
 
-- A função `fizzBuzz` retorna as strings `['bug!', 'fizzBuzz', 'bug!', 'fizz', 'fizzBuzz']` quando receber os parâmetros [2, 15, 7, 9, 45];
+- The function `fizzBuzz` returns the strings `['bug!', 'fizzBuzz', 'bug!', 'fizz', 'fizzBuzz']` when given the parameters [2, 15, 7, 9, 45]
 
-- A função `fizzBuzz` retorna as strings `['bug!', 'fizz']` quando receber os parâmetros [7, 9];
+- The function `fizzBuzz` returns the strings `['bug!', 'fizz']` when given the parameters [7, 9]
 
-- A função `fizzBuzz` retorna as strings `['fizz', 'buzz']` quando receber os parâmetros [9, 25].
-
+- The function `fizzBuzz` returns the strings `['fizz', 'buzz']` when given the parameters [9, 25]
 </details>
 
-## Implementado uma função que Codifique e Decodifique
+
+## Implemented a Encode and Decode function
 
 <details>
   <summary>
-Implementado uma função que codifica e decodifica uma frase, trocando vogais por números ou números por vogais.
-
+    Implemented a function that encodes and decodes a phrase, replacing vowels with numbers or numbers with vowels
   </summary> <br />
 
-Para codificar a frase utilize a função `encode` que recebe uma string como parâmetro e deverá trocar todas as **vogais minúsculas por números**, de acordo com o formato:
+To encode the phrase, use the function `encode`, which takes a string as a parameter and should replace all **lowercase vowels with numbers**, according to the format:
 
 a -> 1 \
 e -> 2 \
@@ -205,13 +200,13 @@ i -> 3 \
 o -> 4 \
 u -> 5
 
-  Exemplo:
+  Example:
 
-- A função `encode` quando receber o parâmetro `'hi there!'`, deve retornar o valor `'h3 th2r2!'`;
-- A função `encode` quando receber o parâmetro `How are you today?` deve retornar o valor `H4w 1r2 y45 t4d1y?`;
-- A função `encode` quando receber o parâmetro `This is an encoding test.` deve retornar o valor `Th3s 3s 1n 2nc4d3ng t2st.`;
+- The function `encode` when given the parameter `'hi there!'`, should return the value `'h3 th2r2!'`
+- The function `encode` when given the parameter `'How are you today?'`, should return the value `'H4w 1r2 y45 t4d1y?'`
+- The function `encode` when given the parameter `'This is an encoding test.'`, should return the value `'Th3s 3s 1n 2nc4d3ng t2st.'`
 
-Para decodificar a frase utilize a função `decode` que recebe uma string contendo letras e números como parâmetro e deverá trocar todos os **números por vogais minúsculas**, de acordo com o formato:
+To decode the phrase, use the function `decode`, which takes a string containing letters and numbers as a parameter and should replace all **numbers with lowercase vowels**, according to the format:
 
 1 -> a \
 2 -> e \
@@ -219,41 +214,41 @@ Para decodificar a frase utilize a função `decode` que recebe uma string conte
 4 -> o \
 5 -> u
 
-  Exemplo:
+  Example:
 
-- A função `decode` quando receber o parâmetro `'h3 th2r2!'`, deve retornar o valor `'hi there!'`;
-- A função `decode` quando receber o parâmetro `H4w 1r2 y45 t4d1y?`, deve retornar o valor `How are you today?`;
-- A função `decode` quando receber o parâmetro `'Th3s 3s 1 d2c4d2 t2st.'`, deve retornar o valor `'This is a decode test.'`;
-
+- The function `decode` when given the parameter `'h3 th2r2!'`, should return the value `'hi there!'`
+- The function `decode` when given the parameter `'H4w 1r2 y45 t4d1y?'`, should return the value `'How are you today?'`
+- The function `decode` when given the parameter `'Th3s 3s 1 d2c4d2 t2st.'`, should return the value `'This is a decode test.'`
 </details>
 
-## Implementado uma função de Lista de Tecnologias
+
+## Implementing a Technology List Function
 
 <details>
   <summary>
-Implementado a função <code>techList</code> que recebe um array e uma string e retorna um array de objetos.
-
+    Implemented the function <code>techList</code> that takes an array and a string and returns an array of objects.
   </summary> <br />
 
-A função `techList` recebe dois parâmetros:
+The `techList` function takes two parameters:
 
-- Um array com nomes de tecnologias ;
-- Um nome referente ao nome de uma pessoa.
+- An array with technology names
+- A name corresponding to a person's name
 
-A função deverá retornar:
-- 'Vazio!' se não receber parâmetro algum ;
-- Um objeto para cada tecnologia do array, com a seguinte estrutura:
+The function should return:
+
+- `'Empty!'` if no parameters are provided
+- An object for each technology in the array, with the following structure
 
 ```javascript
 {
-  tech: 'NomeTech',
-  name: 'nome da pessoa'
+  tech: 'TechName',
+  name: 'person name'
 }
 ```
 
-  Exemplo:
+  Example:
 
--Se a função recebe os parâmetros `['React', 'Jest', 'HTML', 'CSS', 'JavaScript']` e `'Paulo'`, o retorno deve ser:
+- If the function receives the parameters `['React', 'Jest', 'HTML', 'CSS', 'JavaScript']` and `'Paulo'`, the return should be:
 
 ```javascript
 [
@@ -279,87 +274,79 @@ A função deverá retornar:
   }
 ]
 ```
-
 </details>
 
-## Implementado uma função de número de telefone
+
+## Implemented a Phone Number Function
 
 <details>
   <summary>
-Implementado a função  <code>generatePhoneNumber</code> que recebe um array com 11 números e retorna um número de telefone, respeitando parênteses, traços e espaços.
-
+    Implemented the function <code>generatePhoneNumber</code> that takes an array of 11 numbers and returns a formatted phone number with parentheses, hyphens, and spaces
   </summary> <br />
 
-- A função `generatePhoneNumber` retorna a string `'Array com tamanho incorreto.'` caso o array tenha o tamanho diferente de 11;
+- The function `generatePhoneNumber` returns the string `'Array with incorrect size.'` if the array has a size different from 11
 
-- A função `generatePhoneNumber` retorna a string `'Não é possível gerar um número de telefone com esses valores.'` caso algum dos números do array seja menor que 0;
+- The function `generatePhoneNumber` returns the string `'Cannot generate a phone number with these values.'` if any of the numbers in the array is **less** than 0, **greater** than 9 or repeats 4 times or more
 
-- A função `generatePhoneNumber` retorna a string `'Não é possível gerar um número de telefone com esses valores.'` caso algum número do array seja maior que 9;
+Example:
 
-- A função `generatePhoneNumber` retorna a string `'Não é possível gerar um número de telefone com esses valores.'` caso algum número do array se repetir 4 vezes ou mais;
-
-Exemplo:
-
-- Caso o parâmetro da função seja `[1, 6, 9, 9, 4, 0, 1, 0, 5, 3, 1]`, a função `generatePhoneNumber` deverá retornar `(16) 99401-0531`.
-
+- If the function parameter is `[1, 6, 9, 9, 4, 0, 1, 0, 5, 3, 1]`, the `generatePhoneNumber` function should return `(16) 99401-0531`
 </details>
 
-## Implementado uma função que teste a condição de existência de um triângulo
+
+## Implemented a Function to Test the Existence Condition of a Triangle
 
 <details>
   <summary>
-Implementado a função <code>triangleCheck</code> que verifica se é possível formar um triângulo analisando o comprimento de três linhas.
-
+    Implemented the function <code>triangleCheck</code> that checks if it is possible to form a triangle by analyzing the length of three sides
   </summary> <br />
 
-A função `triangleCheck` recebe os parâmetros `lineA`, `lineB` e `lineC` com o valor do comprimento de três linhas distintas.
+The function `triangleCheck` receives the parameters `lineA`, `lineB`, and `lineC` with the length value of three distinct lines
 
-- Para que seja possível formar um triângulo, é necessário atender uma das seguintes condições:
+- To form a triangle, it is necessary to meet one of the following conditions:
 
-  1) **a medida de _um_ dos lados** é **menor** que a soma das medidas dos outros dois lados e **maior** que o valor absoluto (módulo) da diferença entre os outros dois lados. Por exemplo: `lineA` é menor que `lineB + lineC` e maior que `lineB - lineC`. Se o resultado de `lineB - lineC` for um valor negativo, o valor é convertido para positivo e checado se `lineA` é maior que esse resultado convertido;
+  1) **the measurement of _one_ of the sides** is **less than** the sum of the measurements of the other two sides and **greater than** the absolute value (modulus) of the difference between the other two sides. For example: `lineA` is less than `lineB + lineC` and greater than `|lineB - lineC|`. If the result of `lineB - lineC` is a negative value, the value is converted to positive, and it is checked whether `lineA` is greater than this converted result
 
-  **_OU_**
+  **_OR_**
 
-  2) **a medida de _qualquer_ um dos lados** é **menor** que a soma das medidas dos outros dois lados. Por exemplo: `lineA` é menor que `lineB + lineC`, `lineB` é menor que `lineA + lineC` e `lineC` é menor que `lineA + lineB`.
+  2) **the measurement of _any_ one of the sides** is **less than** the sum of the measurements of the other two sides. For example: `lineA` is less than `lineB + lineC`, `lineB` is less than `lineA + lineC`, and `lineC` is less than `lineA + lineB`
 
-- O retorno da sua função é um valor booleano.
+- The return of your function is a boolean value
 
-  Exemplo:
+  Example:
 
-- A função `triangleCheck` deve retornar o valor `true` quando passado os parâmetros `(10, 14, 8)`;
+- The function `triangleCheck` should return the value `true` when passed the parameters `(10, 14, 8)`
 
-- A função `triangleCheck` deve retornar o valor `false` quando passado os parâmetros `(5, 10, 20)`;
-
+- The function `triangleCheck` should return the value `false` when passed the parameters `(5, 10, 20)`
 </details>
 
-## Implementado uma função de boas vindas ao Bar da Trybe!
+
+## Implemented a Welcome Function to Trybe's Bar!
 
 <details>
   <summary>
-Implementado a função <code>hydrate</code> que recebe uma string e retorna a sugestão de quantos copos de água você deve beber.
-
+    Implemented the function <code>hydrate</code> that receives a string and returns the suggestion of how many glasses of water you should drink
   </summary> <br />
 
-- A função `hydrate` retorna a sugestão de quantos copos de água deve-se beber ao receber uma string informando a quantidade de bebida ingerida.
+- The function `hydrate` returns the suggestion of how many glasses of water should be drunk when given a string indicating the amount of beverage consumed
 
-- A string **sempre** terá o formato *quantidade (em número) + tipo da bebida*;
+- The string will **always** have the format *quantity (in number) + type of beverage*
 
-- O número na frente de cada bebida deve estar entre 1 e 9.
+- The number in front of each beverage should be between 1 and 9
 
-  Exemplo:
+  Example:
 
 ```javascript
-// String recebida:
-  '1 cerveja'
+// Received string:
+  '1 beer'
 
-// String retornada:
-  '1 copo de água'
+// Returned string:
+  '1 glass of water'
 
-// String recebida:
-  '1 cachaça, 5 cervejas e 1 copo de vinho'
+// Received string:
+  '1 cachaça, 5 beers, and 1 glass of wine'
 
-// String retornada:
-  '7 copos de água'
+// Returned string:
+  '7 glasses of water'
 ```
-
 </details>

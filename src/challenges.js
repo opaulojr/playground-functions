@@ -43,7 +43,7 @@ function highestCount(array) {
 function catAndMouse(mouse, cat1, cat2) {
   const distanceCat1 = Math.abs(mouse - cat1);
   const distanceCat2 = Math.abs(mouse - cat2);
-  const mouseWin = 'os gatos trombam e o rato foge';
+  const mouseWin = 'The cats collide, and the mouse escapes';
 
   if (distanceCat1 < distanceCat2) return 'cat1';
   if (distanceCat1 > distanceCat2) return 'cat2';
@@ -87,7 +87,7 @@ function techList(array, string) {
   const result = [];
   array.sort();
 
-  if (array.length === 0) return 'Vazio!';
+  if (array.length === 0) return 'Empty!';
 
   for (let index = 0; index < array.length; index += 1) {
     result.push({
@@ -103,13 +103,13 @@ function techList(array, string) {
 function generatePhoneNumber(numbers) {
   const count = {};
 
-  if (numbers.length !== 11) return 'Array com tamanho incorreto.';
+  if (numbers.length !== 11) return 'Array with incorrect size.';
 
   for (let index = 0; index < numbers.length; index += 1) {
     const number = numbers[index];
 
     if (number < 0 || number > 9) {
-      return 'Não é possível gerar um número de telefone com esses valores.';
+      return 'Cannot generate a phone number with these values.';
     }
   }
 
@@ -118,7 +118,7 @@ function generatePhoneNumber(numbers) {
 
     count[number] = count[number] ? count[number] + 1 : 1;
     if (count[number] >= 4) {
-      return 'Não é possível gerar um número de telefone com esses valores.';
+      return 'Cannot generate a phone number with these values.';
     }
   }
 
@@ -144,9 +144,9 @@ function hydrate(string) {
 
   const totalCups = numbers.reduce((sum, num) => sum + parseInt(num, 10), 0);
 
-  if (totalCups === 1) return '1 copo de água';
+  if (totalCups === 1) return '1 glass of water';
 
-  return `${totalCups} copos de água`;
+  return `${totalCups} glasses of water`;
 }
 
 module.exports = {
